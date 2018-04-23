@@ -1,0 +1,22 @@
+// Card
+.item {
+   display: block;
+   border-radius: 8px;
+   margin-bottom: 32px;
+   padding: 16px;
+   background-color: $color-dark-light;
+   
+   &::before {
+      display: none;
+   }
+   
+   &__title {
+      margin-bottom: 0;
+      font-weight: normal;
+      text-transform: initial;
+   }
+
+   @include media(max, sm) {
+      margin-bottom: 24px;
+   }
+}

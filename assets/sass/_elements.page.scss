@@ -1,0 +1,21 @@
+// General Styles
+body {
+   display: flex;
+   flex-direction: column;
+   height: 100vh;
+   min-height: 568px; // Ckeck this
+   font-family: $font-secondary;
+   font-size: $font-size;
+   line-height: normal;
+   letter-spacing: 0.02em;
+   background-color: $color-dark;
+}
+
+strong {
+   font-weight: 600;
+}
+
+::selection {
+   text-shadow: none;
+   background-color: transparent;
+}

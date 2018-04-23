@@ -1,0 +1,6 @@
+// Hide
+@include media(max, sm) {
+   .u--hidden-sm {
+      display: none;
+   }
+}

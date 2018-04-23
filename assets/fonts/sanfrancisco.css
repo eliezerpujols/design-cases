@@ -1,0 +1,19 @@
+/**
+   San Francisco Font | http://applemusic.tumblr.com/
+   
+   Source: https://gist.github.com/bivainis/
+*/
+ 
+/* Regular */
+@font-face {
+   font-family: "SF Text";
+   font-weight: 400;
+   src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff2");
+}
+
+/* Semibold */
+@font-face {
+   font-family: "SF Text";
+   font-weight: 600;
+   src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-semibold-webfont.woff2");
+}
