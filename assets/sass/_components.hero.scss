@@ -3,7 +3,7 @@
    position: relative;
    overflow: hidden;
    flex: none;
-   padding-top: 112px;
+   padding-top: 113px;
    padding-bottom: 140px;
 
    &::before {
@@ -34,6 +34,7 @@
    }
 
    &__actions {
+      position: relative;
       display: flex;
    }
 
