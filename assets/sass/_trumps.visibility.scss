@@ -4,3 +4,9 @@
       display: none;
    }
 }
+
+@include media(min, xs) {
+   .u--hidden-xs {
+      display: none;
+   }
+}
