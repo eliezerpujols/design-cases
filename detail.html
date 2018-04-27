@@ -5,13 +5,16 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="theme-color" content="#1A1A1A">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Design Cases | Case 01</title>
+	<title>Design Cases</title>
 
 	<!-- Fonts-->
 	<link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700" rel="stylesheet">
 	<link href="assets/fonts/sanfrancisco.css" rel="stylesheet">
+
+	<!-- Plugins -->
+	<link href="assets/css/simplebar.css" rel="stylesheet">
 	
-	<!-- CSS Files-->
+	<!-- Main CSS-->
 	<link href="assets/css/main.css" rel="stylesheet">
 </head>
 <body>
@@ -23,7 +26,7 @@
 			<!-- Menu -->
 			<nav class="header__menu">
 				<a class="u--margin-right u--hidden-xs" href="index.html">Home</a>
-				<a class="u--margin-right" href="">More about</a>				
+				<a class="u--margin-right" data-modal href="#about">More about</a>				
 				<a class="u--arrow-right" href="">Contribute</a>
 			</nav>
 
@@ -114,8 +117,25 @@
 		</div>
 	</footer>
 
-	<!-- JS Files-->
+	<!-- Modal -->
+	<div id="about" class="modal" data-simplebar>
+		<div class="modal__body">
+			<h2>Good News!</h2>
+			<p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account.</p>
+			<p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account.</p>
+			<p>But I must explain to you how all this mistaken idea of denouncing pleasure.</p>
+		</div>
+
+		<div class="modal__actions">
+			<a class="modal__close" href="#0">Close</a>
+		</div>
+	</div>
+
+	<!-- Plugins -->
 	<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+	<script src="assets/js/simplebar.js"></script>
+
+	<!-- Main JS -->
 	<script src="assets/js/main.js"></script>
 </body>
 </html>

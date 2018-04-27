@@ -54,6 +54,8 @@
 
    &__item {
       display: block;
+      transform: translateX(0);
+      transition: all 0.3s;
       border-radius: 8px;
       padding: 10px 16px;
       font-family: $font-secondary;
@@ -65,6 +67,10 @@
 
       &:focus {
          color: $color-body-text;
+      }
+
+      &:hover {
+         transform: translateX(6px);
       }
 
       &::before {
@@ -95,10 +101,16 @@
 // Case Items
 .item {
    display: block;
+   transition: all 0.3s;
+   transform: translateY(0);
    border-radius: 8px;
    margin-bottom: 32px;
    padding: 16px;
    background-color: $color-dark-light;
+
+   &:hover {
+      transform: translateY(-6px);
+   }
    
    &::before {
       display: none;
@@ -107,7 +119,7 @@
    &__title {
       margin-bottom: 0;
       font-weight: normal;
-      text-transform: initial;
+      text-transform: initial;   
    }
 
    @include media(max, sm) {
