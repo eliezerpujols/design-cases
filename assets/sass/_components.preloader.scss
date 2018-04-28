@@ -1,0 +1,22 @@
+// Pre-Loader
+.preloader {
+   z-index: 20;
+   position: fixed;
+   top: 0;
+   left: 0;
+   transition: all 0.3s;
+   opacity: 1;
+   visibility: visible;
+   min-width: 100%;
+   min-height: 100%;
+   background-color: $color-dark;
+   // background-image: url("../icons/preloader.svg");
+   // background-position: center;
+   // background-repeat: no-repeat;
+   // background-size: 48px;
+
+   &.preloader--hidden {
+      opacity: 0;
+      visibility: hidden;
+   }
+}

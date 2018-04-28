@@ -2,25 +2,48 @@
 	Design Cases | Eliezer Pujols
 */
 
+// Pre-loader
+$(window).on("load", function() {
+	$(".preloader").addClass("preloader--hidden");
+});
+
+// Smooth Transition, modal...
 $(document).ready(function(){
-	// Menu
-	$(".header__trigger").click(function(){
-		$(".header").toggleClass("header--opened");
-	});
+	smoothPage();
+	toggleMenu();
+	modalComponent();
 
-	// Modal
-	$('a[data-modal]').click(function(e) {
-		// Cancel the link behavior
-		e.preventDefault();
-		// Get the A tag
-		var id = $(this).attr('href');
+	function smoothPage() {
+		$("a.u--transition").click(function(e){
+			e.preventDefault();
+			linkLocation = this.href;
 
-		$(id).addClass("modal--opened");
-		$("body").addClass("body--ophus");
-	});
+			$("body").fadeOut(500, redirectPage);      
+		});
+	
+		function redirectPage() {
+			window.location = linkLocation;
+		}
+	}
 
-	$(".modal__close").click(function(){
-		$(".modal").removeClass("modal--opened");
-		$("body").removeClass("body--ophus");
-	});
+	function modalComponent() {
+		$('a[data-modal]').click(function(e) {
+			e.preventDefault();
+			var id = $(this).attr('href');
+	
+			$(id).addClass("modal--opened");
+			$("body").addClass("body--ophus");
+		});
+	
+		$(".modal__close").click(function(){
+			$(".modal").removeClass("modal--opened");
+			$("body").removeClass("body--ophus");
+		});
+	}
+
+	function toggleMenu() {
+		$(".header__trigger").click(function(){
+			$(".header").toggleClass("header--opened");
+		});
+	}	
 });
