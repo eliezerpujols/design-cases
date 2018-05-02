@@ -9,13 +9,13 @@
 
 	<!-- Fonts-->
 	<link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700" rel="stylesheet">
-	<link href="/assets/fonts/sanfrancisco.css" rel="stylesheet">
+	<link href="{{ '/assets/fonts/sanfrancisco.css' | prepend: site.baseurl }}" rel="stylesheet">
 
 	<!-- Plugins -->
-	<link href="/assets/css/simplebar.css" rel="stylesheet">
+	<link href="{{ '/assets/css/simplebar.css' | prepend: site.baseurl }}" rel="stylesheet">
 	
 	<!-- Main CSS-->
-	<link href="/assets/css/main.css" rel="stylesheet">
+	<link href="{{ '/assets/css/main.css' | prepend: site.baseurl }}" rel="stylesheet">
 </head>
 <body>
 	<!-- Pre-Loader -->
@@ -39,9 +39,9 @@
 
 	<!-- Plugins -->
 	<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
-	<script src="/assets/js/simplebar.js"></script>
+	<script src="{{ '/assets/js/simplebar.js' | prepend: site.baseurl }}"></script>
 
 	<!-- Main JS -->
-	<script src="/assets/js/main.js"></script>
+	<script src="{{ '/assets/js/main.js' | prepend: site.baseurl }}"></script>
 </body>
 </html>

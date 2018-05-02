@@ -1,4 +1,13 @@
+# General
+title: Design Cases
+email: eliezerpujols@outlook.com
+url: https://eliezerpujols.github.io
 baseurl: ""
-permalink: /cases/:title/
+permalink: ":title/"
 collections:
-  showcases:
+   showcases:
+
+# Build Settings
+exclude:
+   - README.md
+   - prepros-6.config
