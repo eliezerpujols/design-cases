@@ -3,7 +3,7 @@ title: Design Cases
 email: eliezerpujols@outlook.com
 url: https://eliezerpujols.github.io
 baseurl: ""
-permalink: ":title/"
+permalink: "/cases/:title/"
 collections:
    showcases:
 
