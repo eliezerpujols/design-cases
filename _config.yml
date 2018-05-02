@@ -1,7 +1,7 @@
 # General
 title: Design Cases
 email: eliezerpujols@outlook.com
-baseurl: "design-case"
+baseurl: "design-cases"
 permalink: "/cases/:title/"
 collections:
    showcases:
