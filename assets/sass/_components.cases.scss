@@ -1,10 +1,116 @@
-// Card
+// The Problem
+.problem {
+   > p {
+      margin-bottom: 48px
+   }
+
+   @include media(min, sm) {
+      padding-right: 24px;
+      > p {
+         margin-bottom: 56px
+      }
+   }    
+}
+
+// The Solution
+.solution {
+   > p {
+      margin-bottom: 48px
+   }
+
+   @include media(min, sm) {
+      padding-left: 24px;
+      > p {
+         margin-bottom: 56px
+      }
+   }
+}
+
+// The Showcases
+.showcases {
+   &__list {
+      display: flex;
+      flex-wrap: wrap;
+      padding-left: 0;
+      margin-bottom: 0;
+      list-style: none;
+      > li {
+         width: 100%;
+         margin-bottom: 16px;
+      }
+
+      @include media(min, sm) {
+         > li {
+            width: 50%;
+            padding-right: 39px;
+   
+            &:nth-child(2n+2) {
+               padding-right: 0;
+               padding-left: 39px;
+            }
+         }
+      }
+   }
+
+   &__item {
+      display: block;
+      transform: translateX(0);
+      transition: all 0.3s;
+      border-radius: 8px;
+      padding: 10px 16px;
+      font-family: $font-secondary;
+      font-size: 15px;
+      font-weight: normal;
+      text-transform: initial;
+      color: $color-body-text;
+      background-color: $color-dark-light;
+
+      &:focus {
+         color: $color-body-text;
+      }
+
+      &:hover {
+         transform: translateX(6px);
+      }
+
+      &::before {
+         display: none;
+      }
+
+      &::after {
+         content: " ";
+         position: absolute;
+         top: 50%;
+         right: 16px;
+         transform: translateY(-50%);
+         display: inline-block;
+         transition: left 0.3s ease;
+         width: 6px;
+         height: 10px;
+         background-image: url("../icons/ic_arrow_right.svg"); 
+         background-repeat: no-repeat;
+      }
+
+      em {
+         font-style: normal;
+         opacity: 0.4;
+      }
+   }
+}
+
+// Case Items
 .item {
    display: block;
+   transition: all 0.3s;
+   transform: translateY(0);
    border-radius: 8px;
    margin-bottom: 32px;
    padding: 16px;
    background-color: $color-dark-light;
+
+   &:hover {
+      transform: translateY(-6px);
+   }
    
    &::before {
       display: none;
@@ -13,7 +119,7 @@
    &__title {
       margin-bottom: 0;
       font-weight: normal;
-      text-transform: initial;
+      text-transform: initial;   
    }
 
    @include media(max, sm) {

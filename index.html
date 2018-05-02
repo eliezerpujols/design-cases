@@ -1,143 +1,42 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="theme-color" content="#1A1A1A">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Design Cases</title>
+---
+layout: default
+title: Design Cases
+---
 
-	<!-- Fonts-->
-	<link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700" rel="stylesheet">
-	<link href="assets/fonts/sanfrancisco.css" rel="stylesheet">
-	
-	<!-- CSS Files-->
-	<link href="assets/css/main.css" rel="stylesheet">
-</head>
-<body>
-	<!-- Hero -->
-	<div class="hero">
-		<div class="wrap">
-			<div class="grid">
-				<div class="grid__cell grid__cell--md-5 grid__cell--sm-8">
-					<h1 class="hero__title">Design Cases</h1>
-					<p class="hero__description">Weekly UI design challenge to solves real problems with better solutions.</p>
-					
-					<div class="hero__actions">
-						<a class="u--margin-right" href="">More about</a>
-						<a class="u--arrow-right" href="">contribute</a>
-					</div>
+<!-- Hero -->
+<div class="hero">
+	<div class="wrap">
+		<div class="grid">
+			<div class="grid__cell grid__cell--md-5 grid__cell--sm-8">
+				<h1 class="hero__title">Design Cases</h1>
+				<p class="hero__description">Weekly UI design challenge to solves real problems with better solutions.</p>
+				<div class="hero__actions">
+					<a class="u--margin-right" data-modal href="#about">More about</a>
+					<a class="u--arrow-right" href="">Contribute</a>
 				</div>
 			</div>
 		</div>
-		
-		<video class="hero__video" autoplay loop>
-			<!-- <source src="assets/img/hero_video.mp4" type="video/mp4"> -->
-		</video>
 	</div>
+	
+	<video class="hero__video" autoplay loop>
+		<source src="/assets/img/hero_video.mp4" type="video/mp4">
+	</video>
+</div>
 
-	<!-- Content -->
-	<main class="site__content">
-		<div class="wrap">
-			<div class="grid">
+<!-- Content -->
+<main class="content">
+	<div class="wrap">
+		<div class="grid">
+			{% for post in site.posts reversed %}
 				<div class="grid__cell grid__cell--md-4 grid__cell--sm-6">
-					<a class="item" href="">
+					<a class="item u--transition" href="{{ post.url }}">
 						<h4 class="item__number">
-							Case <span>01</span>
+							Case <span>{{ post.case_number }}</span>
 						</h4>
-						<h3 class="item__title">Children’s Cares</h3>
+						<h3 class="item__title">{{ post.case_title }}</h3>
 					</a>
 				</div>
-
-				<div class="grid__cell grid__cell--md-4 grid__cell--sm-6">
-					<a class="item" href="">
-						<h4 class="item__number">
-							Case <span>01</span>
-						</h4>
-						<h3 class="item__title">Children’s Cares</h3>
-					</a>
-				</div>
-
-				<div class="grid__cell grid__cell--md-4 grid__cell--sm-6">
-					<a class="item" href="">
-						<h4 class="item__number">
-							Case <span>01</span>
-						</h4>
-						<h3 class="item__title">Children’s Cares</h3>
-					</a>
-				</div>
-
-				<div class="grid__cell grid__cell--md-4 grid__cell--sm-6">
-					<a class="item" href="">
-						<h4 class="item__number">
-							Case <span>01</span>
-						</h4>
-						<h3 class="item__title">Children’s Cares</h3>
-					</a>
-				</div>
-
-				<div class="grid__cell grid__cell--md-4 grid__cell--sm-6">
-					<a class="item" href="">
-						<h4 class="item__number">
-							Case <span>01</span>
-						</h4>
-						<h3 class="item__title">Children’s Cares</h3>
-					</a>
-				</div>
-
-				<div class="grid__cell grid__cell--md-4 grid__cell--sm-6">
-					<a class="item" href="">
-						<h4 class="item__number">
-							Case <span>01</span>
-						</h4>
-						<h3 class="item__title">Children’s Cares</h3>
-					</a>
-				</div>
-
-				<div class="grid__cell grid__cell--md-4 grid__cell--sm-6">
-					<a class="item" href="">
-						<h4 class="item__number">
-							Case <span>01</span>
-						</h4>
-						<h3 class="item__title">Children’s Cares</h3>
-					</a>
-				</div>
-
-				<div class="grid__cell grid__cell--md-4 grid__cell--sm-6">
-					<a class="item" href="">
-						<h4 class="item__number">
-							Case <span>01</span>
-						</h4>
-						<h3 class="item__title">Children’s Cares</h3>
-					</a>
-				</div>
-
-				<div class="grid__cell grid__cell--md-4 grid__cell--sm-6">
-					<a class="item" href="">
-						<h4 class="item__number">
-							Case <span>01</span>
-						</h4>
-						<h3 class="item__title">Children’s Cares</h3>
-					</a>
-				</div>
-			</div>
+			{% endfor %}
 		</div>
-	</main>
-
-	<!-- Footer -->
-	<footer class="site__footer">
-		<div class="wrap">
-			<p class="footer__copy">
-				<span class="u--hidden-sm">For desginers</span> by <a href="http://bit.ly/2FdyuYE">Eliezer Pujols</a>
-			</p>
-			<p class="footer__social">
-				<span class="u--hidden-sm">Use the hashtag</span> <a href="">#designbycases</a>
-			</p>			
-		</div>
-	</footer>
-
-	<!-- JS Files-->
-	<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
-	<script src="assets/js/main.js"></script>
-</body>
-</html>
+	</div>
+</main>

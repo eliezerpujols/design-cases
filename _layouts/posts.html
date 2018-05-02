@@ -1,0 +1,74 @@
+---
+layout: default
+---
+
+<!-- Header -->
+<header class="header">
+	<div class="wrap">
+		<span class="header__case">Case {{ page.case_number }}</span>
+
+		<!-- Menu -->
+		<nav class="header__menu">
+			<a class="u--margin-right u--hidden-xs u--transition" href="/index.html">Home</a>
+			<a class="u--margin-right" data-modal href="#about">More about</a>				
+			<a class="u--arrow-right" href="">Contribute</a>
+		</nav>
+
+		<!-- Menu Trigger -->
+		<span class="header__trigger"></span>
+	</div>
+</header>
+
+<!-- Hero -->
+<div class="hero hero--cases">
+	<div class="wrap">
+		<div class="grid">
+			<div class="grid__cell grid__cell--md-5 grid__cell--sm-8">
+				<h1 class="hero__title">{{ page.case_title }}</h1>
+				<div class="hero__author">
+					By <a href="">{{ page.case_author }}</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="hero__photo" style="background-image: url('{{ page.case_image }}')"></div>
+</div>
+
+<!-- Content -->
+<main class="content">
+	<div class="wrap">
+		<div class="grid">
+			<div class="grid__cell grid__cell--sm-6">
+				<div class="problem">
+					<h3>The problem</h3>
+					<p>{{ page.case_problem }}</p>
+				</div>
+			</div>
+
+			<div class="grid__cell grid__cell--sm-6">
+				<div class="solution">
+					<h3>The solution</h3>
+					<p>{{ page.case_solution }}</p>
+				</div>
+			</div>
+
+			<div class="grid__cell grid__cell--sm-12">
+				<div class="showcases">
+					<h3>Showcases</h3>
+					<ul class="showcases__list">
+						{% for item in site.showcases %}
+							{% if item.number == page.case_number %}
+								<li>
+									<a class="showcases__item" href="{{ item.link }}" target="_blank">
+										<span class="u--hidden-sm">On</span> {{ item.site }} <em>by</em> {{ item.author }}
+									</a>
+								</li>
+							{% endif %}
+						{% endfor %}
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</main>

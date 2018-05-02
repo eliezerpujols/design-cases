@@ -9,6 +9,21 @@ body {
    line-height: normal;
    letter-spacing: 0.02em;
    background-color: $color-dark;
+
+   &::after {
+      z-index: 10;
+      content: " ";
+      position: fixed;
+      top: 0;
+      left: 0;
+      transition: all 0.3s ease;
+      opacity: 0;
+      visibility: hidden;
+      display: block;
+      min-width: 100%;
+      min-height: 100%;
+      background-color: rgba($color: #000000, $alpha: 0.78);
+   }
 }
 
 strong {

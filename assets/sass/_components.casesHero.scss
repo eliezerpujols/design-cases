@@ -1,0 +1,34 @@
+// Cases' Hero
+.hero--cases {
+   padding-top: 187px;
+   padding-bottom: 162px;
+
+   .hero__author {
+      position: relative;
+      margin-left: 2px;
+      font-size: 15px;
+      color: $color-body-text;
+      > a {
+         font-size: 14px;
+      }
+   }
+
+   .hero__photo {
+      z-index: -3;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      min-width: 100%;
+      min-height: 100%;
+      background-image: url("../img/hero_photo.jpeg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+   }
+
+   @include media(max, sm) {
+      padding-top: 173px;
+      padding-bottom: 102px;
+   }
+}
