@@ -29,7 +29,7 @@ title: Design Cases
 		<div class="grid">
 			{% for post in site.posts reversed %}
 				<div class="grid__cell grid__cell--md-4 grid__cell--sm-6">
-					<a class="item u--transition" href="{{ post.url }}">
+					<a class="item u--transition" href="{{ post.url | absolute_url }}">
 						<h4 class="item__number">
 							Case <span>{{ post.case_number }}</span>
 						</h4>

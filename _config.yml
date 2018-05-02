@@ -1,8 +1,8 @@
 # General
 title: Design Cases
 email: eliezerpujols@outlook.com
-baseurl: "design-cases"
-permalink: "/cases/:title/"
+baseurl: /design-cases/
+permalink: /cases/:title
 collections:
    showcases:
 
