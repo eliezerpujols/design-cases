@@ -1,0 +1,4 @@
+baseurl: ""
+permalink: /cases/:title/
+collections:
+  showcases:
