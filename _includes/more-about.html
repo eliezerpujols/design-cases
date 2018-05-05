@@ -1,14 +1,14 @@
 <!-- Modal -->
-<div id="about" class="modal" data-simplebar>
-   <div class="modal__body">
-      <h2>Good News!</h2>
-      
-      <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account.</p>
-      <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account.</p>
-      <p>But I must explain to you how all this mistaken idea of denouncing pleasure.</p>
-   </div>
+{% for modal in site.modals %}
+   <div id="about" class="modal">
+      <div class="modal__inner" data-simplebar>
+         <div class="modal__body">
+            <h2>{{ modal.modal_title }}</h2>
+            {{ modal.content }}
+         </div>
+      </div>
 
-   <div class="modal__actions">
-      <a class="modal__close" href="#0">Close</a>
+      <!-- Close -->
+      <span class="modal__close"></span>
    </div>
-</div>
+{% endfor %}
