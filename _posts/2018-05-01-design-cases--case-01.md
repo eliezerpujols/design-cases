@@ -1,10 +1,10 @@
 ---
 layout: posts
-title: Design Cases | Case 02
-case_number: '02'
+title: Design Cases | Case 01
+case_number: '01'
 case_title: Remember water
-case_author: John Doe
-case_author_link: 'https://twitter.com/eliezerpujols'
+case_author: Victor Ozoría
+case_author_link: 'https://dribbble.com/victorozoria'
 case_image: /assets/img/cases_photos/pexels-photo-220147.jpeg
 case_problem: >-
   Most people tend to be very clueless with the apartment keys', with their
