@@ -2,7 +2,7 @@
 layout: posts
 title: Design Cases | Case 03
 case_number: '03'
-case_title: Pet Care
+case_title: Glass of Drink
 case_author: Eliezer Pujols
 case_author_link: 'https://twitter.com/eliezerpujols'
 case_image: /assets/img/cases_photos/pexels-photo-134392.jpeg
