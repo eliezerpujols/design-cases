@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: Design Cases | Case 02
+title: Design Cases | Case 01
 case_number: '01'
 case_title: Children's Care
 case_author: Martín Ganzo
