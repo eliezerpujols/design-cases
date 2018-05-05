@@ -1,17 +1,16 @@
 ---
 layout: posts
 title: Design Cases | Case 02
-case_number: '02'
-case_title: Track things
-case_author: Victor Ozoría
-case_author_link: 'https://dribbble.com/victorozoria'
+case_number: '01'
+case_title: Children's Care
+case_author: Martín Ganzo
+case_author_link: 'https://twitter.com/eliezerpujols'
 case_image: /assets/img/cases_photos/pexels-photo-220147.jpeg
 case_problem: >-
-  Most people tend to be very clueless with the apartment keys', with their
-  watch and other personal items. They really spend a lot of time trying to find
-  those things.
+  But problem I must explain to you how all this mistaken idea of denouncing
+  pleasure and praising pain was born and I will give you a complete account.
 case_solution: >-
-  A platform that allows people to track lost personal items in a very simple
-  way.
+  But solution I must explain to you how all this mistaken idea of denouncing
+  pleasure and praising pain was born and I will give you a complete account.
 ---
 
