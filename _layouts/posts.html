@@ -9,9 +9,9 @@ layout: default
 
 		<!-- Menu -->
 		<nav class="header__menu">
-			<a class="u--margin-right u--hidden-xs u--transition" href="/index.html">Home</a>
+			<a class="u--margin-right u--hidden-xs u--transition" href="{{ '/' | absolute_url }}">Home</a>
 			<a class="u--margin-right" data-modal href="#about">More about</a>				
-			<a class="u--arrow-right" href="">Contribute</a>
+			<a class="u--arrow-right" href="http://bit.ly/2HS7zaY" target="_blank">Contribute</a>
 		</nav>
 
 		<!-- Menu Trigger -->
@@ -57,7 +57,7 @@ layout: default
 				<div class="showcases">
 					<h3>Showcases</h3>
 					<ul class="showcases__list">
-						{% for item in site.showcases %}
+						{% for item in site.data.showcases %}
 							{% if item.number == page.case_number %}
 								<li>
 									<a class="showcases__item" href="{{ item.link }}" target="_blank">
