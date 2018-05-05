@@ -2,7 +2,7 @@
 layout: posts
 title: Design Cases | Case 01
 case_number: '01'
-case_title: Find Sfuff
+case_title: Find sfuff
 case_author: Victor Ozoría
 case_author_link: 'https://dribbble.com/victorozoria'
 case_image: /assets/img/cases_photos/pexels-photo-220147.jpeg
