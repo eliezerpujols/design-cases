@@ -1,10 +1,12 @@
 # General
 title: Design Cases
 email: eliezerpujols@outlook.com
-baseurl: /design-cases/
+baseurl: /design-cases
 permalink: /cases/:title
+
+# Collections
 collections:
-   showcases:
+   modals: 
 
 # Build Settings
 exclude:
