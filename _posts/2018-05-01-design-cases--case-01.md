@@ -10,7 +10,7 @@ case_problem: >-
   Most people tend to be very forgetful about their apartment keys and other
   personal items. They really spend a lot of time trying to find those things.
 case_solution: >-
-  A platform that allows people to find lost personal items even to find their
-  pets in a simple way.
+  A platform that allows people to find lost personal items, their pets, and
+  other stuff in a simple way.
 ---
 
