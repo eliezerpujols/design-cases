@@ -10,7 +10,7 @@ case_problem: >-
   Some people often forget drink enough water daily and this situation could
   impact their health.
 case_solution: >-
-  An app that reminds you to drink enough water, llevando un historial de la
-  cantidad de agua que ha bebido y debe beber.
+  An app that reminds you to drink enough water, keeping track of the amount of
+  water you drank and should.
 ---
 
