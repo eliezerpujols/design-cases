@@ -1,0 +1,5 @@
+<svg width="10" height="10" viewBox="0 0 10 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="Canvas" fill="none">
+<path id="Union" fill-rule="evenodd" clip-rule="evenodd" d="M 6 1C 6 0.447693 5.55225 0 5 0C 4.44775 0 4 0.447693 4 1L 4 4L 1 4C 0.447754 4 0 4.44769 0 5C 0 5.55231 0.447754 6 1 6L 4 6L 4 9C 4 9.55231 4.44775 10 5 10C 5.55225 10 6 9.55231 6 9L 6 6L 9 6C 9.55225 6 10 5.55231 10 5C 10 4.44769 9.55225 4 9 4L 6 4L 6 1Z" fill="white" fill-opacity="0.72"/>
+</g>
+</svg>

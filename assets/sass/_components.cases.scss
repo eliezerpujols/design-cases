@@ -87,7 +87,7 @@
          transition: left 0.3s ease;
          width: 6px;
          height: 10px;
-         background-image: url("../icons/ic_arrow_right.svg"); 
+         background-image: url("../icons/ic_arrow_right.svg");
          background-repeat: no-repeat;
       }
 
@@ -95,6 +95,16 @@
          font-style: normal;
          opacity: 0.4;
       }
+   }
+}
+
+.showcases__item--add {
+   border: 1px dashed rgba(255, 255, 255, 0.2);
+   background-color: transparent;
+
+   &::after {
+      width: 10px;
+      background-image: url("../icons/ic_plus.svg");
    }
 }
 
