@@ -5,7 +5,10 @@ layout: default
 <!-- Header -->
 <header class="header">
 	<div class="wrap">
-		<span class="header__case">Case {{ page.case_number }}</span>
+		<span class="header__case">
+         <em>Case {{ page.case_number }}</em>
+         <a class="u--transition" href="{{ '/' | absolute_url }}">Back to home</em>
+      </span>
 
 		<!-- Menu -->
 		<nav class="header__menu">
@@ -65,7 +68,13 @@ layout: default
 									</a>
 								</li>
 							{% endif %}
-						{% endfor %}
+                  {% endfor %}
+                  
+                  <li>
+                     <a class="showcases__item showcases__item--add" href="">
+                        Upload your design for this case.
+                     </a>
+                  </li>
 					</ul>
 				</div>
 			</div>
