@@ -12,4 +12,4 @@ modal_title: Good News!
 
 ### Credits?
 
-<p>Of course, this project was inspired by a UI Challenges of a great designer [Christian Vizcarra](https://dribbble.com/christianvizcarra){: target="_blank"}&nbsp; and thanks to [Pexels](https://www.pexels.com/)&nbsp; for the awesome photos.</p>
+<p>Of course, this project was inspired by a UI Challenges of a great designer [Christian Vizcarra](https://dribbble.com/christianvizcarra){: target="_blank"} and thanks to [Pexels](https://www.pexels.com/) for the awesome photos.</p>
