@@ -2,12 +2,6 @@
 modal_title: Good News!
 ---
 
-<p>But problem I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account.</p>
+Most designers participing in challenges like "100 Days UI Challenges" and this could be very fun, but just by making pretty UI without understanding and solving real problems will not give them some benefit.
 
-<p>But problem I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account.</p>
-
-<p>But problem I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account.</p>
-
-<p>But problem I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account.</p>
-
-<p>But problem I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account.</p>
+Design Cases tiene como proposito no solo dar a los dise&ntilde;adores la oportunidad de flex their creative muscle sino tambien...
