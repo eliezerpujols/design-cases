@@ -2,6 +2,6 @@
 modal_title: Good News!
 ---
 
-Most designers participing in challenges like "100 Days UI Challenges" and this could be very fun, but just by making pretty UI without understanding and solving real problems will not give them some benefit.
+Most designers participating in challenges like 100 Days UI Challenges because it feels great to break away for your day job and have a mental break, but just by making pretty UI without understanding and solving real problems will not give them some benefit.
 
-Design Cases tiene como proposito no solo dar a los dise&ntilde;adores la oportunidad de flex their creative muscle sino tambien...
+For that reason I decided to make a set of design cases, which not only give you the opportunity to exercise the muscle of creativity but also give you the possibility to understand people's problems and experiment with different solutions.
