@@ -101,6 +101,10 @@
 .showcases__item--add {
    border: 1px dashed rgba(255, 255, 255, 0.2);
    background-color: transparent;
+   
+   @include media(max, xs) {
+      line-height: 26px;
+   }
 
    &::after {
       width: 10px;
