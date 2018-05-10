@@ -4,7 +4,7 @@
       <div class="modal__inner" data-simplebar>
          <div class="modal__body">
             <h2>{{ modal.modal_title }}</h2>
-            {{ modal.content }}
+            {{ modal.content | markdownify }}
          </div>
       </div>
 

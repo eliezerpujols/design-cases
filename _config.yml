@@ -8,7 +8,9 @@ permalink: /cases/:title
 collections:
    modals: 
 
+
 # Build Settings
+markdown: kramdown
 exclude:
    - README.md
    - prepros-6.config
