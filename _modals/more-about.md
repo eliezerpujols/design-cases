@@ -6,10 +6,10 @@ Most designers participating in challenges like 100 Days UI Challenges because i
 
 For that reason I decided to make a collection of Design Cases, which not only give you the opportunity to break away for your day job and have a mental break but also give you the possibility to understand people's problems and experiment with different solutions.
 
-### How use it?
+### Basic Usage
 
 Feel free of use Design Case as you want but I recommend to take one case for week because that will help you to focus on the problems and solutions.
 
-### Credits?
+### Credits
 
-Of course, this project was inspired by a UI Challenges of a great designer [Christian Vizcarra](https://dribbble.com/christianvizcarra)&nbsp;and thanks to [Pexels](https://www.pexels.com)&nbsp;for awesome photos.
+This project was inspired by a UI Challenges of a great designer [Christian Vizcarra](https://dribbble.com/christianvizcarra) and thanks to [Pexels](https://www.pexels.com) for awesome photos.
