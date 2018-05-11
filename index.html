@@ -1,4 +1,4 @@
----
+--- 
 layout: default
 title: Design Cases
 ---
@@ -19,8 +19,8 @@ title: Design Cases
 			</div>
 		</div>
 	</div>
-	
-	<video class="hero__video" autoplay loop>
+
+	<video class="hero__video" loop autoplay>
 		<source src="{{ '/assets/img/hero_video.mp4' | absolute_url }}" type="video/mp4" />
 	</video>
 </div>
@@ -30,14 +30,14 @@ title: Design Cases
 	<div class="wrap">
 		<div class="grid">
 			{% for post in site.posts reversed %}
-				<div class="grid__cell grid__cell--md-4 grid__cell--sm-6">
-					<a class="item u--transition" href="{{ post.url | absolute_url }}">
-						<h4 class="item__number">
-							Case <span>{{ post.case_number }}</span>
-						</h4>
-						<h3 class="item__title">{{ post.case_title }}</h3>
-					</a>
-				</div>
+			<div class="grid__cell grid__cell--md-4 grid__cell--sm-6">
+				<a class="item u--transition" href="{{ post.url | absolute_url }}">
+					<h4 class="item__number">
+						Case <span>{{ post.case_number }}</span>
+					</h4>
+					<h3 class="item__title">{{ post.case_title }}</h3>
+				</a>
+			</div>
 			{% endfor %}
 		</div>
 	</div>

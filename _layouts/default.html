@@ -5,31 +5,31 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="theme-color" content="#1A1A1A">
-   <title>{{ page.title }}</title>
+	<title>{{ page.title }}</title>
 
-   <!-- Search Engine -->
-   <meta name="description" content="Weekly UI design challenge to solve real problems with better solutions ideas.">
-   <!-- Schema.org for Google -->
-   <meta itemprop="name" content="{{ page.title }}">
-   <meta itemprop="description" content="Weekly UI Design challenge to solve real problems with better solutions ideas.">
-   <!-- Open Graph general (Facebook, Pinterest & Google+) -->
-   <meta name="og:title" content="{{ page.title }}">
-   <meta name="og:description" content="Weekly UI Design challenge to solve real problems with better solutions ideas.">
-   <meta name="og:image" content="{{ '/assets/icons/apple-touch-icon-152x152.png' | absolute_url }}">
-   <meta name="og:site_name" content="https://eliezerpujols.github.io/design-cases/">
-   <meta name="og:type" content="website">
+	<!-- Search Engine -->
+	<meta name="description" content="Weekly UI design challenge to solve real problems with better solutions ideas.">
+	<!-- Schema.org for Google -->
+	<meta itemprop="name" content="{{ page.title }}">
+	<meta itemprop="description" content="Weekly UI Design challenge to solve real problems with better solutions ideas.">
+	<!-- Open Graph general (Facebook, Pinterest & Google+) -->
+	<meta name="og:title" content="{{ page.title }}">
+	<meta name="og:description" content="Weekly UI Design challenge to solve real problems with better solutions ideas.">
+	<meta name="og:image" content="{{ '/assets/icons/apple-touch-icon-152x152.png' | absolute_url }}">
+	<meta name="og:site_name" content="https://eliezerpujols.github.io/design-cases/">
+	<meta name="og:type" content="website">
 
-   <!-- Favicons -->
-   <link rel="shortcut icon" href="{{ '/assets/icons/favicon.ico' | absolute_url }}" type="image/x-icon">
-   <link rel="apple-touch-icon" href="{{ '/assets/icons/apple-touch-icon.png' | absolute_url }}">
-   <link rel="apple-touch-icon" sizes="57x57" href="{{ '/assets/icons/apple-touch-icon-57x57.png' }}">
-   <link rel="apple-touch-icon" sizes="72x72" href="{{ '/assets/icons/apple-touch-icon-72x72.png' | absolute_url }}">
-   <link rel="apple-touch-icon" sizes="76x76" href="{{ '/assets/icons/apple-touch-icon-76x76.png' | absolute_url }}">
-   <link rel="apple-touch-icon" sizes="114x114" href="{{ '/assets/icons/apple-touch-icon-114x114.png' | absolute_url }}">
-   <link rel="apple-touch-icon" sizes="120x120" href="{{ '/assets/icons/apple-touch-icon-120x120.png' | absolute_url }}">
-   <link rel="apple-touch-icon" sizes="144x144" href="{{ '/assets/icons/apple-touch-icon-144x144.png' | absolute_url }}">
-   <link rel="apple-touch-icon" sizes="152x152" href="{{ '/assets/icons/apple-touch-icon-152x152.png' | absolute_url }}">
-   <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/icons/apple-touch-icon-180x180.png' | absolute_url }}">
+	<!-- Favicons -->
+	<link rel="shortcut icon" href="{{ '/assets/icons/favicon.ico' | absolute_url }}" type="image/x-icon">
+	<link rel="apple-touch-icon" href="{{ '/assets/icons/apple-touch-icon.png' | absolute_url }}">
+	<link rel="apple-touch-icon" sizes="57x57" href="{{ '/assets/icons/apple-touch-icon-57x57.png' }}">
+	<link rel="apple-touch-icon" sizes="72x72" href="{{ '/assets/icons/apple-touch-icon-72x72.png' | absolute_url }}">
+	<link rel="apple-touch-icon" sizes="76x76" href="{{ '/assets/icons/apple-touch-icon-76x76.png' | absolute_url }}">
+	<link rel="apple-touch-icon" sizes="114x114" href="{{ '/assets/icons/apple-touch-icon-114x114.png' | absolute_url }}">
+	<link rel="apple-touch-icon" sizes="120x120" href="{{ '/assets/icons/apple-touch-icon-120x120.png' | absolute_url }}">
+	<link rel="apple-touch-icon" sizes="144x144" href="{{ '/assets/icons/apple-touch-icon-144x144.png' | absolute_url }}">
+	<link rel="apple-touch-icon" sizes="152x152" href="{{ '/assets/icons/apple-touch-icon-152x152.png' | absolute_url }}">
+	<link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/icons/apple-touch-icon-180x180.png' | absolute_url }}">
 
 	<!-- Fonts-->
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500|Roboto+Mono:400,700" rel="stylesheet">
@@ -39,18 +39,29 @@
 	
 	<!-- Main CSS-->
 	<link href="{{ '/assets/css/main.css' | absolute_url }}" rel="stylesheet">
+	
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-109248934-2"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-109248934-2');
+	</script>
+
 </head>
 <body>
 	<!-- Pre-Loader -->
 	<div class="preloader"></div>
 
-   {{ content }}
+	{{ content }}
 
-   <!-- Footer -->
+	<!-- Footer -->
 	<footer class="footer">
 		<div class="wrap">
 			<p class="footer__copy">
-				<span class="u--hidden-sm editable">For desginers</span> by <a href="http://bit.ly/2FdyuYE">Eliezer Pujols</a>
+				<span class="u--hidden-sm editable">For desginers</span> by <a href="http://bit.ly/2FdyuYE" target="_blank">Eliezer Pujols</a>
 			</p>
 			<p class="footer__social">
 				<span class="u--hidden-sm editable">Use the hashtag</span> <a href="">#designbycases</a>
