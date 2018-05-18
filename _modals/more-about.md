@@ -8,7 +8,7 @@ For that reason, I decided to make a collection of Design Cases, which not only 
 
 ### Basic Usage
 
-Use Design Case as you want but I recommend to take one case per week because that will help you to focus on the problems and solutions.
+Use Design Case as you want but I recommend to take one case per week because that will help you to focus on the problem and design a great solution.
 
 ### Contribute
 
