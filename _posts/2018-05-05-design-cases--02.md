@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: Design Cases | Case 02
+title: Design Cases | 02
 case_number: '02'
 case_title: Pet Care
 case_author: Eliezer Pujols
