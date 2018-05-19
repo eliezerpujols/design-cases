@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: Design Cases 06
+title: Design Cases | 06
 case_number: '06'
 case_title: Design Cases
 case_author: Eliezer Pujols
