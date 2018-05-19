@@ -8,9 +8,9 @@ case_author_link: 'https://dribbble.com/victorozoria'
 case_image: /assets/img/cases_photos/pexels-photo-220147.jpeg
 case_problem: >-
   Most people tend to be very forgetful about their apartment keys and other
-  personal items. They really spend a lot of time trying to find those things.
+  personal items. They spend much time trying to find them.
 case_solution: >-
   A platform that allows people to find lost personal items, their pets, and
-  other stuff in a simple way.
+  other stuff easily.
 ---
 
