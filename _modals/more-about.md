@@ -12,7 +12,7 @@ Use Design Cases as you want. I recommend you to take one design case per week b
 
 ### Contribute
 
-Feel free to contribute to the project. Once you've finished designing the solution of a case upload it in our showcases section. Also, you're able to submit your own design case&nbsp;[here](http://bit.ly/2HS7zaY).
+Feel free to contribute to the project. Once you've finished designing the solution of a case upload it in our showcases section. Also, you're able to submit your own design cases&nbsp;[here](http://bit.ly/2HS7zaY).
 
 ### Credits
 
