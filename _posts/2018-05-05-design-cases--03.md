@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: Design Cases | Case 03
+title: Design Cases | 03
 case_number: '03'
 case_title: Glass of Water
 case_author: Eliezer Pujols
