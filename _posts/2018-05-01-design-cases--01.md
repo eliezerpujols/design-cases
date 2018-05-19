@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: Design Cases | Case 01
+title: Design Cases | 01
 case_number: '01'
 case_title: Find Stuff
 case_author: Victor Ozoría
