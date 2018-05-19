@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: Design Cases | Case 04
+title: Design Cases | 04
 case_number: '04'
 case_title: Event Planners
 case_author: Eliezer Pujols
