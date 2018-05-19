@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: Design Cases | Case 05
+title: Design Cases | 05
 case_number: '05'
 case_title: Road Trips
 case_author: Marcelo Silva
