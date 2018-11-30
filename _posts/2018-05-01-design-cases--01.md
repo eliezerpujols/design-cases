@@ -1,9 +1,9 @@
 ---
 layout: posts
 title: Design Cases | 01
-case_number: '01'
+case_number: 1
 case_title: Find Stuff
-case_author: Victor Ozoría
+case_author: Victor Ozoria
 case_author_link: 'https://dribbble.com/victorozoria'
 case_image: /assets/img/cases_photos/pexels-photo-220147.jpeg
 case_problem: >-
